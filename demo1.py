@@ -50,8 +50,10 @@ urlencode 编码
 parse_qs 解码
 """
 
-params = {"name": "张三", "age": 18, "greet": "hello world"}
-qs = parse.urlencode(params)
-print(qs)
-result = parse.parse_qs(qs)
-print(result)
+# params = {"name": "张三", "age": 18, "greet": "hello world"}
+# qs = parse.urlencode(params)
+# print(qs)
+# result = parse.parse_qs(qs)
+# print(result)
+
+
