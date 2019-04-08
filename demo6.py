@@ -24,7 +24,7 @@ headers = {
 }
 data = {
     "email": 'zhuzhanji1',
-    'password': '881106'
+    "password": "881106"
 }
 login_url = 'http://sns.renren.com/'
 req = request.Request(login_url, data=parse.urlencode(data).encode('utf-8'), headers=headers)
